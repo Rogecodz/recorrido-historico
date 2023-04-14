@@ -42,10 +42,6 @@ header p {
 	margin-top: -30px;
 }
 
-.text-center {
-	text-align: center;
-}
-
 .lineaTiempo {
 	position: relative;
 	top: 230px;
@@ -176,7 +172,7 @@ header p {
 
 @media screen and (max-width: 600px) {
 	.lineaTiempo {
-		margin: 50px auto;
+		margin: 90px auto;
 	}
 	.lineaTiempo::after {
 		left: 31px;
@@ -201,6 +197,19 @@ header p {
 		border-right: 15px solid #fff;
 		border-left: 0;
 		left: -15px;
+	}
+
+	.left-container h2 {
+		left: 4px;
+		right: auto;
+	}
+
+	.right-container h2 {
+		left: 4px;
+	}
+
+	header {
+		top: 0;
 	}
 }
 
