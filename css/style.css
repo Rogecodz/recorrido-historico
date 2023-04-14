@@ -17,10 +17,21 @@ h1 {
 	font-weight: 400;
 }
 
+.logo {
+	height: 80px;
+	cursor: pointer;
+}
+
 header {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 	background: #144633;
 	color: #fff;
-	padding: 150px 0;
+	padding: 50px 0;
+	z-index: 1;
 }
 
 header p {
@@ -37,14 +48,35 @@ header p {
 
 .lineaTiempo {
 	position: relative;
+	top: 230px;
 	max-width: 1200px;
-	margin: 100px auto;
+	margin: 0px auto;
 }
 
 .container {
 	padding: 10px 50px;
 	position: relative;
 	width: 50%;
+}
+
+.left-container h2 {
+	position: absolute;
+	right: -26px;
+	top: 36px;
+	background-color: #fff;
+	font-size: 18px;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+.right-container h2 {
+	position: absolute;
+	left: -26px;
+	top: 36px;
+	background-color: #fff;
+	font-size: 18px;
+	border-radius: 6px;
+	padding: 5px;
 }
 
 .text-box {
@@ -85,9 +117,9 @@ header p {
 	}
 }
 
-.text-box h2 {
+/* .text-box h2 {
 	font-weight: 600;
-}
+} */
 
 .text-box small {
 	display: inline-block;
@@ -170,4 +202,18 @@ header p {
 		border-left: 0;
 		left: -15px;
 	}
+}
+
+.unstyled-button {
+	border: none;
+	padding: 0;
+	background: none;
+	background: linear-gradient(180deg, #26a570 0%, #056244 49%, #74fbc7 50%, #80b2bb 100%);
+	background-size: 1px 100px;
+	transition: all 0.3s;
+}
+
+.unstyled-button:hover {
+	background-position: 0 -50px;
+	transition: all 0.3s;
 }

@@ -25,3 +25,13 @@ hiddenElementsLeft.forEach((el) => observerLeft.observe(el));
 
 const hiddenElementsRight = document.querySelectorAll('.hidden-right');
 hiddenElementsRight.forEach((el) => observerRight.observe(el));
+
+var x = document.getElementById('myAudio');
+
+function playAudio() {
+	x.play();
+}
+
+function pauseAudio() {
+	x.pause();
+}
