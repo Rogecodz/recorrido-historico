@@ -17,39 +17,20 @@ h1 {
 	font-weight: 400;
 }
 
-.logo {
-	height: 80px;
-	cursor: pointer;
-}
-
-header {
-	position: fixed;
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	background: #144633;
+.navbar-custom-color {
+	background-color: #144633;
 	color: #fff;
-	padding: 50px 0;
-	z-index: 1;
-}
-
-header p {
-	font-family: 'Allura';
-	color: rgba(255, 255, 255, 0.2);
-	margin-bottom: 0;
-	font-size: 60px;
-	margin-top: -30px;
 }
 
 .lineaTiempo {
 	position: relative;
-	top: 230px;
+	top: 50px;
 	max-width: 1200px;
 	margin: 0px auto;
+	margin-bottom: 100px;
 }
 
-.container {
+.contenedor {
 	padding: 10px 50px;
 	position: relative;
 	width: 50%;
@@ -172,12 +153,12 @@ header p {
 
 @media screen and (max-width: 600px) {
 	.lineaTiempo {
-		margin: 90px auto;
+		margin: 0px auto;
 	}
 	.lineaTiempo::after {
 		left: 31px;
 	}
-	.container {
+	.contenedor {
 		width: 100%;
 		padding-left: 80px;
 		padding-right: 25px;
@@ -206,10 +187,6 @@ header p {
 
 	.right-container h2 {
 		left: 4px;
-	}
-
-	header {
-		top: 0;
 	}
 }
 
