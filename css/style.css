@@ -8,6 +8,7 @@
 body {
 	background: rgba(0, 0, 0, 0.9);
 	overflow-x: hidden;
+	padding-top: 56px;
 }
 
 h1 {
@@ -105,6 +106,10 @@ h1 {
 
 .text-box p {
 	margin-bottom: 15px;
+}
+
+.text-box audio {
+	display: block;
 }
 
 .left-container-arrow {
