@@ -109,7 +109,8 @@ h1 {
 }
 
 .text-box audio {
-	display: block;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .left-container-arrow {
